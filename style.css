@@ -407,6 +407,11 @@ input[type="search"]::-webkit-search-results-decoration {
     .card__element--brand {
       max-width: 224px; } }
 
+.card__link--brand {
+  position: absolute;
+  bottom: 9px;
+  right: 16px; }
+
 .card__rotate--brand {
   margin-bottom: 15px; }
 
@@ -515,8 +520,10 @@ input[type="search"]::-webkit-search-results-decoration {
 .card__name--tech {
   color: #1b1c21; }
 
-.card__image--tech {
-  align-self: flex-end; }
+.card__link--tech {
+  position: absolute;
+  bottom: 9px;
+  right: 16px; }
 
 .card__rotate--tech {
   margin-bottom: 15px; }
