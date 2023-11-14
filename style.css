@@ -1111,7 +1111,7 @@ input[type="search"]::-webkit-search-results-decoration {
   border: none;
   cursor: pointer; }
 
-.price__button {
+.card__button {
   position: absolute;
   bottom: 16px;
   right: 16px;
@@ -1203,7 +1203,7 @@ input[type="search"]::-webkit-search-results-decoration {
   border: none;
   cursor: pointer; }
 
-.price__button {
+.card__button {
   position: absolute;
   bottom: 16px;
   right: 16px;
