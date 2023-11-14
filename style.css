@@ -41,8 +41,8 @@
     transform: scale(0) !important; } }
 
 @media (min-width: 768px) {
-  .card__link--brand--hidden,
-  .card__link--tech--hidden,
+  .card__element--brand--hidden,
+  .card__element--tech--hidden,
   .repair-price__card {
     display: none !important;
     visibility: hidden !important;
@@ -385,23 +385,10 @@ input[type="search"]::-webkit-search-results-decoration {
       flex-wrap: wrap; } }
   @media (min-width: 1120px) {
     .card__list--brand {
+      margin-right: 32px;
       margin-left: 32px;
       -moz-column-gap: 32px;
            column-gap: 32px; } }
-
-.card__link--brand {
-  max-width: 240px;
-  max-height: 72px;
-  border-radius: 6px; }
-  @media (min-width: 768px) and (max-width: 1119.5px) {
-    .card__link--brand {
-      max-width: 224px; } }
-  @media (min-width: 768px) {
-    .card__link--brand {
-      margin-right: 0 !important; } }
-
-.card__link--brand:last-child {
-  margin-right: 32px; }
 
 .card__element--brand {
   width: 240px;
@@ -413,6 +400,9 @@ input[type="search"]::-webkit-search-results-decoration {
   border-radius: 6px;
   border: 1px solid #eaeaea;
   background: #ffffff; }
+  @media (min-width: 768px) {
+    .card__element--brand {
+      margin-right: 0 !important; } }
   @media (min-width: 768px) and (max-width: 1119.5px) {
     .card__element--brand {
       max-width: 224px; } }
@@ -504,20 +494,6 @@ input[type="search"]::-webkit-search-results-decoration {
       -moz-column-gap: 32px;
            column-gap: 32px; } }
 
-.card__link--tech {
-  max-width: 240px;
-  max-height: 160px;
-  border-radius: 6px; }
-  @media (min-width: 768px) and (max-width: 1119.5px) {
-    .card__link--tech {
-      max-width: 224px; } }
-  @media (min-width: 768px) {
-    .card__link--tech {
-      margin-right: 0 !important; } }
-
-.card__link--tech:last-child {
-  margin-right: 32px; }
-
 .card__element--tech {
   width: 240px;
   height: 160px;
@@ -529,6 +505,9 @@ input[type="search"]::-webkit-search-results-decoration {
   border-radius: 6px;
   border: 1px solid #eaeaea;
   background: #ffffff; }
+  @media (min-width: 768px) {
+    .card__element--tech {
+      margin-right: 0 !important; } }
   @media (min-width: 768px) and (max-width: 1119.5px) {
     .card__element--tech {
       max-width: 224px; } }
