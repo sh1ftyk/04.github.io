@@ -207,22 +207,23 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .main__features {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   -moz-column-gap: 20px;
        column-gap: 20px;
   overflow-x: scroll;
   margin-bottom: 24px; }
-  @media (min-width: 1120px) {
-    .main__features {
-      padding: 0 34px; } }
   @media (min-width: 768px) {
     .main__features {
       -moz-column-gap: 25px;
            column-gap: 25px; } }
+  @media (min-width: 1120px) {
+    .main__features {
+      padding: 0 24px 12px 34px; } }
 
 .features__search {
   width: 246px;
   height: 40px;
+  margin-bottom: 16px;
   overflow-x: scroll;
   color: #7e7e82;
   font-family: TT Lakes;
@@ -790,7 +791,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .container__info {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   margin-right: 16px;
   margin-left: 16px;
@@ -820,7 +821,7 @@ input[type="search"]::-webkit-search-results-decoration {
       max-width: 425px; } }
 
 .info__commercial-button {
-  flex-basis: 100%;
+  max-width: 335px;
   padding: 5px 0 5px 10px;
   margin: -5px 0 -5px -10px;
   background: transparent;
