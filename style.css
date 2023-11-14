@@ -818,9 +818,7 @@ input[type="search"]::-webkit-search-results-decoration {
   margin: -5px 0 -5px -10px;
   background: transparent;
   cursor: pointer;
-  border: none; }
-
-.info__commercial-text {
+  border: none;
   position: relative;
   font-family: TT Lakes;
   font-size: 16px;
@@ -831,8 +829,7 @@ input[type="search"]::-webkit-search-results-decoration {
   line-height: 24px; }
 
 .info__commercial-image {
-  position: absolute;
-  bottom: -3px; }
+  position: absolute; }
 
 .container__footer {
   display: flex;
@@ -1113,7 +1110,8 @@ input[type="search"]::-webkit-search-results-decoration {
   width: 119px;
   height: 32px; }
 
-.feedback__button {
+.feedback__button,
+.callback__button {
   width: 136px;
   height: 32px; }
 
@@ -1204,7 +1202,8 @@ input[type="search"]::-webkit-search-results-decoration {
   width: 119px;
   height: 32px; }
 
-.feedback__button {
+.feedback__button,
+.callback__button {
   width: 136px;
   height: 32px; }
 
